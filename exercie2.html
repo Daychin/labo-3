@@ -13,15 +13,35 @@
     <style>
         body{
         background-image: url(image/papier.jpg);
-        background-size: cover;
-    }
-    h1{
+        background-size: cover; }
+        h1{
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
-        size
-    }
+        font-style: italic;
+        font-weight: bold;
+        font-size: 30px; }
 
+        table,tr,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            margin: auto;
+            font-size: 45px;
+            
+        }
+        
+        tr:nth-child(even){
+            background-color: aqua;
+        }
 
+        tr:nth-child(9){
+            background-color: black;
+        }
+
+        tr:nth-child(odd){
+            color: white;
+        }
+
+       
 
     </style>
     
@@ -36,12 +56,92 @@
     <h1>Principales Dépenses par trimestres d une famille canadienne</h1>
 
 
+    <table>
+        <tr>
+            <th>trimestre Dépenses</th>
+            <th>trimestre 1</th>
+            <th>trimestre 2</th>
+            <th>trimestre 3</th>
+            <th>trimestre 4</th>
+        </tr>
+
+        <tr>
+            <th>Nourriture</th>
+            <td>2400</td>
+            <td>2500</td>
+            <td>2400</td>
+            <td>2800</td>
+        </tr>
+
+        <tr>
+            <th>Loyer</th>
+            <td>4500</td>
+            <td>4500</td>
+            <td>4500</td>
+            <td>4500</td>
+        </tr>
+
+        <tr>
+            <th>Magasinage</th>
+            <td>600</td>
+            <td>650</td>
+            <td>400</td>
+            <td>100</td>
+        </tr>
+
+        <tr>
+            <th>Loirir</th>
+            <td>600</td>
+            <td>500</td>
+            <td>2000</td>
+            <td>200</td>
+        </tr>
+
+        <tr>
+            <th>Électricité</th>
+            <td>800</td>
+            <td>600</td>
+            <td>400</td>
+            <td>500</td>
+        </tr>
+
+        <tr>
+            <th>Transpot</th>
+            <td>750</td>
+            <td>800</td>
+            <td>200</td>
+            <td>650</td>
+        </tr>
+
+        <tr>
+            <th>Autre</th>
+            <td>0</td>
+            <td>250</td>
+            <td>400</td>
+            <td>500</td>
+        </tr>
+        <tr>
+            <th>Total</th>
+            <td>9650</td>
+            <td>9250</td>
+            <td>10700</td>
+            <td>9250</td>
+        </tr>
+
+        <tr>
+            <th colspan="4" style="text-align: left;">Grand Total</th>
+            <td style="color: brown;">38850</td>
+        </tr>
+    
+        
+    </table>
 
 
 
 
 
+    <br><a href="index.html" target="_self">Pour revenir</a>
 
-    <p><h4><a href="https://pixabay.com/fr/photos/papier-brown-texture-contexte-1468883/" target="_blank"></a>source</h4></p>
+<!--source pour le font de ecran :  "https://pixabay.com/fr/photos/papier-brown-texture-contexte-1468883/"-->
 </body>
 </html>
